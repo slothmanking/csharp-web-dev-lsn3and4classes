@@ -8,9 +8,6 @@ namespace SchoolPractice
         public string Subject { get; set; }
         public int YearsTeaching { get; set; }
 
-        //public Teacher()
-        //{
-        //}
 
         public Teacher(string firstName, string lastName, string subject, int years)
         {

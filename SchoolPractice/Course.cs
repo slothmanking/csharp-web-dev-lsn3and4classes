@@ -10,7 +10,7 @@ namespace SchoolPractice
         public string Location { get; set; }
         public Teacher Instructor { get; set; }
 
-        public Course(List<Student> enrolledStudents, string title, string location, instructor );
+        public Course(List<Student> enrolledStudents, string title, string location, Teacher instructor );
         {
         }
     }
