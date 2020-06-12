@@ -5,11 +5,11 @@
 
 namespace SchoolPractice
 {
-    public class Student
+    public class Student = new Student 
     {
-        private string Name;
-        private int StudentId;
-        private int NumberOfCredits;
-        private double Gpa;
+        private string Name { get; set; } 
+        private int StudentId { get; set; }
+        private int NumberOfCredits { get; set; }
+        private double Gpa { get; set; }
     }
 }

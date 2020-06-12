@@ -6,9 +6,23 @@ namespace SchoolPractice
     {
         public static void Main(string[] args)
         {
-            // TODO: Instantiate your objects and test your exercise solutions with print statements here.
 
-            Console.WriteLine();
-        }
+            public Student(string name, int id, int credits, double gpa)
+            {
+                Name = name;
+                StudentId = id;
+                NumberOfCredits = credits;
+                Gpa = gpa; 
+
+            }
+
+
+                private string Name { get; set; }
+        private int StudentId { get; set; }
+        private int NumberOfCredits { get; set; }
+        private double Gpa { get; set; }
+
+
+    }
     }
 }
