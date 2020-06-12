@@ -5,11 +5,12 @@ namespace SchoolPractice
 {
     public class Course
     {
-        private List<Student> enrolledStudents = new List<Student>();
-        private string courseTitle;
-        private string location;
+        public List<Student> enrolledStudents = new List<Student>();
+        public string CourseTitle { get; set; }
+        public string Location { get; set; }
+        public Teacher Instructor { get; set; }
 
-        public Course()
+        public Course(List<Student> enrolledStudents, string title, string location, instructor );
         {
         }
     }
