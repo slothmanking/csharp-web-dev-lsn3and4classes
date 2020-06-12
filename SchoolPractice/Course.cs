@@ -5,7 +5,7 @@ namespace SchoolPractice
 {
     public class Course
     {
-        private string List<Student>(enrolledStudents);
+        private List<Student> enrolledStudents = new List<Student>();
         private string courseTitle;
         private string location;
 
